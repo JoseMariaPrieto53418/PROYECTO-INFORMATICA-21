@@ -1,4 +1,17 @@
-﻿  Mundo.cpp
+﻿  Disparo.cpp
+  Hombre.cpp
+C:\Users\chemi\Desktop\Metal Slug\PROYECTO-INFORMATICA-21\MetalSlug\src\Hombre.cpp(100,30): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\chemi\Desktop\Metal Slug\PROYECTO-INFORMATICA-21\MetalSlug\src\Hombre.cpp(100,26): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\chemi\Desktop\Metal Slug\PROYECTO-INFORMATICA-21\MetalSlug\src\Hombre.cpp(112,32): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\chemi\Desktop\Metal Slug\PROYECTO-INFORMATICA-21\MetalSlug\src\Hombre.cpp(112,27): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\chemi\Desktop\Metal Slug\PROYECTO-INFORMATICA-21\MetalSlug\src\Hombre.cpp(117,34): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\chemi\Desktop\Metal Slug\PROYECTO-INFORMATICA-21\MetalSlug\src\Hombre.cpp(117,29): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+  Interacciones.cpp
+  ListaDisparos.cpp
+  MetalSlug.cpp
+  Mundo.cpp
 C:\Users\chemi\Desktop\Metal Slug\PROYECTO-INFORMATICA-21\MetalSlug\src\Mundo.cpp(34,33): warning C4305: 'argumento': truncamiento de 'double' a 'float'
 C:\Users\chemi\Desktop\Metal Slug\PROYECTO-INFORMATICA-21\MetalSlug\src\Mundo.cpp(122,22): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  Generando código...
+  LINK : no se encontró C:\Users\chemi\Desktop\Metal Slug\PROYECTO-INFORMATICA-21\MetalSlug\bin\MetalSLug.exe o no lo generó el último vínculo incremental; ejecutando vínculo completo
   Pang.vcxproj -> C:\Users\chemi\Desktop\Metal Slug\PROYECTO-INFORMATICA-21\MetalSlug\bin\MetalSLug.exe
