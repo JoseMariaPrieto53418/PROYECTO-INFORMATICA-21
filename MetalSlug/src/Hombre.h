@@ -19,6 +19,7 @@ private:
 	unsigned char azul;
 	float altura;
 	int vida;
+	int Salto_cargado;
 	Vector2D posicion;
 	Vector2D velocidad;
 	Vector2D aceleracion;
@@ -38,6 +39,8 @@ public:
 	void SetAceleracion(double _xa, double _ya);
 	void SetVida(int _vida);
 	void SetAltura(float _a);
+	void setSalto(int s);
+	int getSalto();
 
 	//Metodos GET
 	float GetXPosicion();

@@ -20,10 +20,6 @@ void Interaccion::Rebote(Hombre& j, Pared& p)
 	{
 		j.SetPosicion(j.GetXPosicion(), p.GetYsuperior() + 1);
 		j.SetVelocidad(j.GetXVelocidad(), 0);
+		j.setSalto(1);
 	}
-
-
-
-
-
 }

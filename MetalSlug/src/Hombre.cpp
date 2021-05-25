@@ -164,3 +164,14 @@ int Hombre::GetVida()
 {
 	return vida;
 }
+
+void Hombre::setSalto(int s)
+{
+	Salto_cargado = s;
+}
+
+int Hombre::getSalto()
+{
+	return Salto_cargado;
+
+}

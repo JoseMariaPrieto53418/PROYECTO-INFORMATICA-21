@@ -1,1 +1,4 @@
-﻿  Pang.vcxproj -> C:\Users\sanim\Source\Repos\PROYECTO-INFORMATICA-21\MetalSlug\bin\MetalSLug.exe
+﻿  Mundo.cpp
+C:\Users\chemi\Desktop\Metal Slug\PROYECTO-INFORMATICA-21\MetalSlug\src\Mundo.cpp(34,33): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\chemi\Desktop\Metal Slug\PROYECTO-INFORMATICA-21\MetalSlug\src\Mundo.cpp(122,22): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  Pang.vcxproj -> C:\Users\chemi\Desktop\Metal Slug\PROYECTO-INFORMATICA-21\MetalSlug\bin\MetalSLug.exe

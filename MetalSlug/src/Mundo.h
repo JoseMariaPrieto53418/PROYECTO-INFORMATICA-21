@@ -4,6 +4,7 @@
 #include "Pared.h"
 #include "Hombre.h"
 #include "Dragon.h"
+#include "ListaDisparos.h"
 
 class Mundo
 {
@@ -32,4 +33,5 @@ private:
 	Pared  suelo;
 	Hombre jugador;
 	Dragon dragon;
+	ListaDisparos disparos;
 };

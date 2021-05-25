@@ -50,6 +50,7 @@ void Mundo::Dibuja()
 	suelo.Dibuja();
 	jugador.Dibuja();
 	dragon.Dibuja();
+	disparos.dibuja();
 
 
 
@@ -58,7 +59,19 @@ void Mundo::Dibuja()
 
 void Mundo::Tecla(unsigned char key)
 {
+	switch(key)
+		case ' ':
+	{
+		Disparo* d = new Disparo();
+		d->setPos(jugador.GetPosicion().x + 3.0f, (jugador.GetPosicion().y + (jugador.GetAltura()/2)));
+		d->setVel(20.0f, 0.0f);
+		
+		disparos.agregar(d);
 
+		break;
+	}
+
+	
 
 }
 
@@ -75,8 +88,12 @@ void Mundo::TeclaEspecial(unsigned char _key)
 
 	case GLUT_KEY_UP:
 		//if ((jugador.GetYPosicion() == 0)) //|| jugador.GetYPosicion() == 11 || remy.GetYPosicion() == 21 || remy.GetYPosicion() == 31 || remy.GetYPosicion() == 41 || remy.GetYPosicion() == 51 || remy.GetYPosicion() == 61)
-
-		jugador.SetVelocidad(jugador.GetXVelocidad(), 68);
+		int s = jugador.getSalto();
+		if (s == 1)
+		{
+			jugador.SetVelocidad(jugador.GetXVelocidad(), 68);
+			jugador.setSalto(0);
+		}
 		//	ETSIDI::play("sonidos/SaltoRemy.mp3");
 
 		break;
@@ -102,6 +119,7 @@ void Mundo::Mueve()
 	jugador.Mueve(0.025f);
 	dragon.Mueve(0.025f);
 	Interaccion::Rebote(jugador, suelo);
+	disparos.mueve(0.025);
 
 }
 
